@@ -6,7 +6,7 @@ public class Tracker {
     private int size = 0;
 
     public Item add(Item item) {
-        System.out.println("not not ");
+        System.out.println("not not 01.08.2024");
         item.setId(ids++);
         items[size++] = item;
         return item;
