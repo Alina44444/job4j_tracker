@@ -6,8 +6,7 @@ public class Tracker {
     private int size = 0;
 
     public Item add(Item item) {
-        System.out.println("test");
-        System.out.println("test two");
+        System.out.println("not not ");
         item.setId(ids++);
         items[size++] = item;
         return item;
