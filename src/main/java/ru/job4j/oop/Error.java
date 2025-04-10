@@ -5,10 +5,6 @@ public class Error {
     private int status;
     private String message;
 
-    public void print() {
-        System.out.println(this.active + " " + this.status + " " + this.message);
-    }
-
     public Error() {
 
     }
@@ -17,6 +13,10 @@ public class Error {
         this.active = active;
         this.status = status;
         this.message = message;
+    }
+
+    public void print() {
+        System.out.println(this.active + " " + this.status + " " + this.message);
     }
 
     public static void main(String[] args) {
